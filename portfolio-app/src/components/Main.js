@@ -8,7 +8,7 @@ import { MapPin, Github, Twitter, Figma } from 'lucide-react';
 export const Main = () => {
   return (
     <div className="flex flex-col items-center dark:bg-[#030712] bg-[#ffffff]">
-      <div className=" dark:bg-[#030712] bg-[#ffffff] dark:text-[#F9FAFB] pr-4 pl-4 pt-16 pb-12 flex flex-col justify-center md:flex-row-reverse md:px-24 md:py-24 md:gap-12 max-w-[1280px]">
+      <div className=" dark:bg-[#030712] bg-[#ffffff] dark:text-[#F9FAFB] pr-4 pl-4 pt-16 pb-12 flex flex-col justify-center md:flex-row-reverse md:gap-12 max-w-[1280px]">
         <div className="flex justify-center items-center">
           <img
             className="mb-12 flex dark:hidden min-w-[280px] min-h-[300px] md:hidden"
