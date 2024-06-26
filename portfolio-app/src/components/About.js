@@ -5,7 +5,7 @@ import About768dark from '../assets/About768dark.png';
 export const About = () => {
   return (
     <div className="flex flex-col items-center dark:bg-[#111827] bg-gray-50">
-      <div className=" dark:bg-[#111827] pt-16 pr-4 pl-4 pb-16 bg-gray-50 md:flex md:flex-col mb:items-center md:pr-24 md:pl-24 md:pt-24 md:pb-24 max-w-[1280px]">
+      <div className=" dark:bg-[#111827] pt-16 pr-4 pl-4 pb-16 bg-gray-50 md:flex md:flex-col mb:items-center max-w-[1280px]">
         <div className="mb-12 flex justify-center">
           <button className="dark:bg-[#374151] dark:text-[#D1D5DB] bg-gray-200 justify-start px-5 py-1 items-center rounded-xl text-gray-600 text-sm font-medium w-[content-fit]">
             About me
