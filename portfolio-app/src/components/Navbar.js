@@ -7,7 +7,7 @@ const changeTheme = () => {
 
 export const Navbar = ({ handlerClick }) => {
   return (
-    <div className=" dark:bg-[#030712] items-center md:pt-4 md:pb-4 md:pl-20 md:pr-20 md:items-center md:font-medium flex justify-between p-4">
+    <div className=" dark:bg-[#030712] items-center md:py-4 md:px-28 md:items-center md:font-medium flex justify-between ">
       <p className="text-gray-900 text-3xl font-bold dark:text-[#F9FAFB]">
         {s}
       </p>
@@ -28,7 +28,7 @@ export const Navbar = ({ handlerClick }) => {
             onClick={changeTheme}
             className="hidden dark:flex cursor-pointer"
           />
-          <button className="dark:bg-[#F9FAFB] dark:text-[#111827] md:bg-gray-900 md:text-gray-50 md:text-base md:h-[36px] md:w-[136px] md:rounded-xl">
+          <button className="dark:bg-[#F9FAFB] dark:text-[#111827] md:bg-gray-900 md:text-gray-50 md:text-base md:h-fit md:w-fit md:rounded-xl py-1.5 px-4">
             Download CV
           </button>
         </div>

@@ -7,12 +7,12 @@ import darkSagar768 from '../assets/darkSagar768.png';
 import { MapPin, Github, Twitter, Figma } from 'lucide-react';
 export const Main = () => {
   return (
-    <div className=" dark:bg-[#030712] bg-[#ffffff] dark:text-[#F9FAFB] pr-4 pl-4 pt-16 pb-12 flex flex-col justify-center md:flex-row-reverse md:px-32 md:py-24 md:gap-12">
+    <div className=" dark:bg-[#030712] bg-[#ffffff] dark:text-[#F9FAFB] pr-4 pl-4 pt-16 pb-12 flex flex-col justify-center md:flex-row-reverse md:px-24 md:py-24 md:gap-12">
       <div className="flex justify-center items-center">
         <img
           className="mb-12 flex dark:hidden min-w-[280px] min-h-[300px] md:hidden"
           src={Sagar}
-          alt="Profile"
+          alt="Profe"
         />
         <img
           className="mb-12 min-w-[280px] min-h-[300px] hidden md:hidden md:dark:hidden dark:flex"
