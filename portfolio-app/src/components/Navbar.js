@@ -7,7 +7,7 @@ const changeTheme = () => {
 
 export const Navbar = ({ handlerClick }) => {
   return (
-    <div className=" dark:bg-[#030712] items-center md:py-4 md:px-28 md:items-center md:font-medium flex justify-between ">
+    <div className=" dark:bg-[#030712] items-center md:py-4 md:px-28 md:items-center md:font-medium flex justify-between p-4">
       <p className="text-gray-900 text-3xl font-bold dark:text-[#F9FAFB]">
         {s}
       </p>
@@ -16,6 +16,7 @@ export const Navbar = ({ handlerClick }) => {
         className="md:hidden text-gray-600 cursor-pointer"
         onClick={handlerClick}
       />
+
       <div className=" cursor-pointer hidden md:flex md:text-gray-600 md:gap-x-6 md:text-base md:items-center dark:text-[#F9FAFB]">
         <p>About</p>
         <p>Work</p>
