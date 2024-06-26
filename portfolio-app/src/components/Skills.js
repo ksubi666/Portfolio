@@ -11,7 +11,7 @@ export const Skills = () => {
       <p className=" dark:text-[#D1D5DB] text-lg text-gray-600 font-normal text-center mb-6 md:mb-12">
         The skills, tools and technologies I am really good at:
       </p>
-      <div className="flex flex-wrap gap-10 justify-between md:max-w-[1280px]">
+      <div className="flex flex-wrap justify-between gap-11 md:gap-20 md:max-w-[1280px]">
         <Iconstitle />
       </div>
     </div>
