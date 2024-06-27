@@ -7,8 +7,8 @@ const changeTheme = () => {
 
 export const Navbar = ({ handlerClick }) => {
   return (
-    <div className="flex justify-center max-w-[100%] dark:bg-[#030712] md:px-8">
-      <div className=" dark:bg-[#030712] items-center md:items-center md:font-medium flex justify-between p-4 md:py-4 md:px-0 w-[1280px]">
+    <div className="flex justify-center max-w-[100%] dark:bg-[#030712]">
+      <div className=" dark:bg-[#030712] items-center md:items-center md:font-medium flex justify-between p-4 md:py-4 w-[1280px] md:px-8">
         <p className="text-gray-900 text-3xl font-bold dark:text-[#F9FAFB]">
           {s}
         </p>
