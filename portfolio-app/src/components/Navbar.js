@@ -1,5 +1,5 @@
 import { Menu, MoonStar, Sun } from 'lucide-react';
-
+import { MenuItems, menuItems } from '../constants';
 const s = '<SS/>';
 const changeTheme = () => {
   document.documentElement.classList.toggle('dark');
@@ -17,12 +17,10 @@ export const Navbar = ({ handlerClick }) => {
           className="md:hidden text-gray-600 cursor-pointer"
           onClick={handlerClick}
         />
-
         <div className=" cursor-pointer hidden md:flex md:text-gray-600 md:gap-x-6 md:text-base md:items-center dark:text-[#F9FAFB]">
-          <p>About</p>
-          <p>Work</p>
-          <p>Testimonials</p>
-          <p>Contact</p>
+          {menuItems.map((el) => (
+            <p>{el}</p>
+          ))}
           <span className="h-6 md:border-r md:border-gray-200 "></span>
           <div className="md:flex  md:gap-x-6 md:items-center">
             <Sun onClick={changeTheme} className="dark:hidden cursor-pointer" />

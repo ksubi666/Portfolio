@@ -1,35 +1,5 @@
-import upwork from '../assets/upwork.png';
+import { CardItems } from '../constants';
 const Card = () => {
-  const CardItems = [
-    {
-      icon: upwork,
-      present: 'Nov 2021 - Present',
-      title: 'Sr. Frontend Developer',
-      text: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        'Ut pretium arcu et massa semper, id fringilla leo semper.',
-        'Sed quis justo ac magna.',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      ],
-    },
-    {
-      icon: upwork,
-      present: 'Jul 2017 - Oct 2021',
-      title: 'Sr. Frontend Developer',
-      text: [
-        'Sed quis justo ac magna.',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        'Sed quis justo ac magna.',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      ],
-    },
-    {
-      icon: upwork,
-      present: 'Dec 2015 - May 2017',
-      title: 'Full Stack Developer',
-      text: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit.'],
-    },
-  ];
   return CardItems.map((el) => {
     return (
       <div className="dark:bg-[#374151] min-w-[343px] md:max-w-[896px] h-[fit-content] p-8 rounded-xl bg-white mb-6 shadow-lg flex flex-col gap-y-4 md:flex-row md:gap-x-12">

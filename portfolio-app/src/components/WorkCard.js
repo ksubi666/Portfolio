@@ -1,18 +1,7 @@
 import { SquareArrowOutUpRight } from 'lucide-react';
 import WorkCardImg from '../assets/WorkCardImg.png';
+import { buttons } from '../constants';
 
-const buttons = [
-  'React',
-  'Next.js',
-  'Typescript',
-  'Nest.js',
-  'PostgreSQL',
-  'Tailwindcss',
-  'Figma',
-  'Cypress',
-  'Storybook',
-  'Git',
-];
 const WorkCard = () => {
   return (
     <div className="flex flex-col items-center md:flex md:flex-row md:justify-center md:mb-12 mb-6 md:[&:nth-child(even)]:flex-row-reverse ">
