@@ -1,5 +1,5 @@
 import { Menu, MoonStar, Sun } from 'lucide-react';
-import { MenuItems, menuItems } from '../constants';
+import { menuItems } from '../constants';
 const s = '<SS/>';
 const changeTheme = () => {
   document.documentElement.classList.toggle('dark');

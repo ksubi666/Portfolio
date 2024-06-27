@@ -1,10 +1,5 @@
-import { Mail, BookCopy, Phone, Github, Twitter, Figma } from 'lucide-react';
-import { footersvg } from '../constants';
-
-const contact = [
-  { icon: <Mail />, email: 'reachsagarshah@gmail.com', boxIcon: <BookCopy /> },
-  { icon: <Phone />, email: '+91 8980500565', boxIcon: <BookCopy /> },
-];
+import { Figma, Github, Twitter } from 'lucide-react';
+import { contact, footersvg } from '../constants';
 export const Contact = () => {
   return (
     <div className=" dark:bg-[#030712] pt-16 pr-4 pl-4 pb-16">

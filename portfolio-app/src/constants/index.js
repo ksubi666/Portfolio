@@ -1,3 +1,4 @@
+import { Mail, BookCopy, Phone } from 'lucide-react';
 import upwork from '../assets/upwork.png';
 // Icons title
 import jsIcon from '../assets/icons/javscript.png';
@@ -113,3 +114,7 @@ export const footersvg = (
     />
   </svg>
 );
+export const contact = [
+  { icon: <Mail />, email: 'reachsagarshah@gmail.com', boxIcon: <BookCopy /> },
+  { icon: <Phone />, email: '+91 8980500565', boxIcon: <BookCopy /> },
+];
