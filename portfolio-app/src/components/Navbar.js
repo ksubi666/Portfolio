@@ -23,12 +23,15 @@ export const Navbar = ({ handlerClick }) => {
           ))}
           <span className="h-6 md:border-r md:border-gray-200 "></span>
           <div className="md:flex  md:gap-x-6 md:items-center">
-            <Sun onClick={changeTheme} className="dark:hidden cursor-pointer" />
+            <Sun
+              onClick={changeTheme}
+              className="dark:hidden cursor-pointer "
+            />
             <MoonStar
               onClick={changeTheme}
-              className="hidden dark:flex cursor-pointer"
+              className="hidden dark:flex cursor-pointer "
             />
-            <button className="dark:bg-[#F9FAFB] dark:text-[#111827] md:bg-gray-900 md:text-gray-50 md:text-base md:h-fit md:w-fit md:rounded-xl py-1.5 px-4">
+            <button className="dark:bg-[#F9FAFB] dark:text-[#111827] md:bg-gray-900 md:text-gray-50 md:text-base md:h-fit md:w-fit md:rounded-xl py-1.5 px-4 hover:bg-gray-700">
               Download CV
             </button>
           </div>

@@ -4,6 +4,7 @@ import profile768 from '../assets/Profile768.png';
 import darkSagar768 from '../assets/darkSagar768.png';
 
 import { MapPin, Github, Twitter, Figma } from 'lucide-react';
+import { linkIcon } from '../constants';
 export const Main = () => {
   return (
     <div className="flex flex-col items-center dark:bg-[#030712] bg-[#ffffff]">
@@ -55,9 +56,15 @@ export const Main = () => {
             </div>
           </div>
           <div className="flex text-gray-600 gap-4 dark:text-[#D1D5DB]">
-            <Github />
-            <Twitter />
-            <Figma />
+            <a href="https://github.com/" target="_blank">
+              <Github />
+            </a>
+            <a href="https://x.com/" target="_blank">
+              <Twitter />
+            </a>
+            <a href="https://www.figma.com/" target="_blank">
+              <Figma />
+            </a>
           </div>
         </div>
       </div>
