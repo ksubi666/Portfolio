@@ -15,7 +15,7 @@ const buttons = [
 ];
 const WorkCard = () => {
   return (
-    <div className="flex flex-col items-center md:flex md:flex-row md:justify-center md:mb-12 mb-6 [&:nth-child(even)]:flex-row-reverse ">
+    <div className="flex flex-col items-center md:flex md:flex-row md:justify-center md:mb-12 mb-6 md:[&:nth-child(even)]:flex-row-reverse ">
       <div className="dark:bg-[#374151] bg-gray-100 p-8 rounded-t-lg w-[343px] h-[256px] md:min-h-[480px] md:min-w-[576px] md:rounded-none md:rounded-l-lg shadow-lg ">
         <img
           className="size-full rounded-lg"
