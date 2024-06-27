@@ -1,13 +1,10 @@
 import { Figma, Github, Twitter } from 'lucide-react';
 import { contact, footersvg } from '../constants';
+import { Button } from './Button';
 export const Contact = () => {
   return (
     <div className=" dark:bg-[#030712] pt-16 pr-4 pl-4 pb-16">
-      <div className="flex justify-center mb-4">
-        <button className="dark:text-[#D1D5DB] dark:bg-[#374151] bg-gray-200 justify-start px-5 py-1 items-center rounded-xl text-gray-600 text-sm font-medium">
-          Get in touch
-        </button>
-      </div>
+      <Button name="Get in touch" margin="mb-4" />
       <p className="text-xl dark:text-[#D1D5DB] text-gray-600 font-normal text-center mb-6">
         What’s next? Feel free to reach out to me if you're looking for a
         developer, have a query, or simply want to connect.

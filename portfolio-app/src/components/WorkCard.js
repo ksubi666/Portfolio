@@ -1,6 +1,7 @@
 import { SquareArrowOutUpRight } from 'lucide-react';
 import WorkCardImg from '../assets/WorkCardImg.png';
 import { buttons } from '../constants';
+import { Button } from './Button';
 
 const WorkCard = () => {
   return (
@@ -21,13 +22,9 @@ const WorkCard = () => {
           urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in
           faucibus orci luctus et ultrices posuere cubilia curae.
         </p>
-        <div className="flex flex-wrap mb-6">
+        <div className="flex flex-wrap mb-6 gap-2">
           {buttons.map((el) => {
-            return (
-              <button className="dark:bg-[#374151] dark:text-[#D1D5DB] bg-gray-200 justify-start px-5 py-1 items-center rounded-xl text-gray-600 text-sm font-medium mr-2 mb-2">
-                {el}
-              </button>
-            );
+            return <Button name={el} />;
           })}
         </div>
         <SquareArrowOutUpRight className="text-gray-600" />
